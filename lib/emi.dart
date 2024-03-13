@@ -178,7 +178,7 @@ class _EmiState extends State<Emi> {
                     });
                   },
                   child: Padding(
-                    padding: const EdgeInsets.only(left:10,top: 10),
+                    padding: const EdgeInsets.only(left:20,top: 10),
                     child: Container(
                         height: 40,
                         width: 115,
@@ -264,20 +264,22 @@ class _EmiState extends State<Emi> {
               ),
             ],
           ),
-          const Row(
+          Row(
             children: [
-              Padding(
-                padding: EdgeInsets.only(left: 20, top: 15),
-                child: Text(
-                  "Monthly",
-                  style: TextStyle(
-                      color: Color(0xff202121),
-                      fontSize: 15,
-                      fontWeight: FontWeight.w700),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.only(left: 20, top: 15),
+                  child: Text(
+                    "Monthly",
+                    style: TextStyle(
+                        color: Color(0xff202121),
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700),
+                  ),
                 ),
               ),
               Padding(
-                padding: EdgeInsets.only(left: 280, top: 15),
+                padding: EdgeInsets.only(left: 280, top: 15,right: 25),
                 child: Text(
                   "00",
                   style: TextStyle(
@@ -290,18 +292,20 @@ class _EmiState extends State<Emi> {
           ),
           Row(
             children: [
-              Padding(
-                padding: EdgeInsets.only(left: 20, top: 20),
-                child: Text(
-                  "Total Interest",
-                  style: TextStyle(
-                      color: Color(0xff202121),
-                      fontSize: 15,
-                      fontWeight: FontWeight.w700),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.only(left: 20, top: 20),
+                  child: Text(
+                    "Total Interest",
+                    style: TextStyle(
+                        color: Color(0xff202121),
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700),
+                  ),
                 ),
               ),
               Padding(
-                padding: EdgeInsets.only(left: 244.5, top: 20),
+                padding: EdgeInsets.only(left: 244.5, top: 20,right: 25),
                 child: Text("$EMI",
                   style: TextStyle(
                       color: Color(0xff202121),
@@ -313,18 +317,20 @@ class _EmiState extends State<Emi> {
           ),
           Row(
             children: [
-              Padding(
-                padding: EdgeInsets.only(left: 20, top: 20),
-                child: Text(
-                  "Total Payment",
-                  style: TextStyle(
-                      color: Color(0xff202121),
-                      fontSize: 15,
-                      fontWeight: FontWeight.w700),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.only(left: 20, top: 20,),
+                  child: Text(
+                    "Total Payment",
+                    style: TextStyle(
+                        color: Color(0xff202121),
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700),
+                  ),
                 ),
               ),
               Padding(
-                padding: EdgeInsets.only(left: 238, top: 20),
+                padding: EdgeInsets.only(left: 238, top: 20,right: 25),
                 child: Text("$ans",
                   style: TextStyle(
                       color: Color(0xff202121),
@@ -335,7 +341,7 @@ class _EmiState extends State<Emi> {
             ],
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10,right: 20,top: 50),
+            padding: const EdgeInsets.only(left: 20,right: 20,top: 50),
             child: Row(
               children: [
                 Expanded(
