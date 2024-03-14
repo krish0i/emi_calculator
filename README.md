@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<p>
+  <img src="https://github.com/krish0i/emi_calculator/assets/162409974/acb2256f-709f-4489-90a0-af689267d763" height='60%' width='30%'>
+</p>
